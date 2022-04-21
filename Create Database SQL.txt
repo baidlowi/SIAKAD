@@ -1,0 +1,12 @@
+Departemen :
+CREATE TABLE `epiz_31547987_wordpress`.`Departemen` ( `namaDepartemen` VARCHAR(20) NOT NULL , `kodeDepartemen` VARCHAR(20) NOT NULL , `namaMahasiswa` VARCHAR(40) NOT NULL , `namaDosen` VARCHAR(30) NOT NULL , PRIMARY KEY (`kodeDepartemen`)) ENGINE = MyISAM CHARSET=latin1 COLLATE latin1_swedish_ci;
+
+Semester: 
+CREATE TABLE `epiz_31547987_wordpress`.`Semester` ( `noSemester` INT NOT NULL ) ENGINE = MyISAM CHARSET=latin1 COLLATE latin1_swedish_ci;
+
+CREATE TABLE `epiz_31547987_wordpress`.`Akun` (
+  `NRP` int(25) NOT NULL,
+  `nama` varchar(50) NOT NULL,
+  `password` int(20) NOT NULL,
+  `email` varchar(50) NOT NULL
+)
