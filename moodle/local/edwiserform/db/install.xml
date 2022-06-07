@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/edwiserform/db" VERSION="2018040300" COMMENT="XMLDB file for Moodle local/edwiserform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
+    <TABLES>
+        <!-- form definition -->
+        <TABLE NAME="efb_forms" COMMENT="This table has the list of Countries(Location)">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+                <FIELD NAME="title" TYPE="char" LENGTH="100" NOTNULL="true" SEQUENCE="false" COMMENT="The form title."/>
+                <FIELD NAME="description" TYPE="char" LENGTH="500" NOTNULL="false" SEQUENCE="false" COMMENT="The form description."/>
+                <FIELD NAME="author" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false" COMMENT="The form author id"/>
+                <FIELD NAME="author2" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="The form author id who updated form"/>
+                <FIELD NAME="definition" TYPE="text" LENGTH="1000" NOTNULL="true" SEQUENCE="false" COMMENT="The form structure defination."/>
+                <FIELD NAME="data_edit" TYPE="int" LENGTH="1" NOTNULL="true" SEQUENCE="false" COMMENT="The form creation datetime"/>
+                <FIELD NAME="type" TYPE="char"  NOTNULL="true" SEQUENCE="false" DEFAULT="FALSE" COMMENT="Type of the form."/>
+                <FIELD NAME="notifi_email" TYPE="text" NOTNULL="false" SEQUENCE="false" COMMENT="This is the optional values used for the contactus type form."/>
+                <FIELD NAME="message" TYPE="text" NOTNULL="false" SEQUENCE="false" COMMENT="Message when user successfully submit form data"/>
+                <FIELD NAME="enabled" TYPE="binary"  NOTNULL="true" SEQUENCE="false" COMMENT="The form active status."/>
+                <FIELD NAME="deleted" TYPE="binary"  NOTNULL="true" SEQUENCE="false" COMMENT="If the value is true then it will represent the form is deleted."/>
+                <FIELD NAME="created" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="The form creation datetime"/>
+                <FIELD NAME="modified" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="The form creation datetime"/>
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id" COMMENT="The unique id for Country"/>
+            </KEYS>
+        </TABLE>
+
+        <!-- form submitted data -->
+        <TABLE NAME="efb_form_data" COMMENT="This table saves the list of City(Location).">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+                <FIELD NAME="formid" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+                <FIELD NAME="userid" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="false"/>
+                <FIELD NAME="submission" TYPE="char" LENGTH="1000" NOTNULL="true" SEQUENCE="false"/>
+                <FIELD NAME="date" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+                <FIELD NAME="updated" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false"/>
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id" COMMENT="The unique id for the city."/>
+                <KEY NAME="formid" TYPE="foreign" FIELDS="formid" REFTABLE="efb_forms" REFFIELDS="id"/>
+            </KEYS>
+        </TABLE>
+        <!-- form templates -->
+        <TABLE NAME="efb_form_templates" COMMENT="This table has the default templates definition">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+                <FIELD NAME="name" TYPE="char" LENGTH="20" NOTNULL="false" SEQUENCE="false" COMMENT="Name of template definition"/>
+                <FIELD NAME="definition" TYPE="text" LENGTH="1000" NOTNULL="true" SEQUENCE="false" COMMENT="The form structure definition."/>
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id" COMMENT="The unique id for Country"/>
+                <KEY NAME="template" TYPE="unique" FIELDS="name" />
+            </KEYS>
+        </TABLE>
+    </TABLES>
+</XMLDB>

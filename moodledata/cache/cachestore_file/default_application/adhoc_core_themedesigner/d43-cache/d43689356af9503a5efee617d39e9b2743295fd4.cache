@@ -1,0 +1,7 @@
+a:2:{s:4:"data";s:280:"/** Path: plugin block_social_activities .' **/
+.block_social_activities li {clear: both;}
+.block_social_activities li .column {width: 100%;}
+.block_social_activities li .buttons {float: right;margin: 0;}
+.block_social_activities li .buttons a img {vertical-align: text-bottom;}
+
+";s:7:"created";i:1654602066;}

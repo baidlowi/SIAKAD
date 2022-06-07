@@ -1,0 +1,5 @@
+a:2:{s:4:"data";s:276:"/** Path: plugin tool_messageinbound .' **/
+#page-admin-tool-messageinbound-index .handler-function {display: block;padding: 0 .5em;color: #888;font-size: .75em;}
+#page-admin-tool-messageinbound-index .state, #page-admin-tool-messageinbound-index .edit {text-align: center;}
+
+";s:7:"created";i:1654602066;}

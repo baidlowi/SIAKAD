@@ -1,0 +1,7 @@
+a:2:{s:4:"data";s:280:"/** Path: plugin atto_emoticon .' **/
+.atto_emoticon_map ul {padding: 0;margin: 0;display: table;width: 100%;}
+.atto_emoticon_map li {display: table-row;white-space: nowrap;}
+.atto_emoticon_map li div {display: table-cell;padding: 0 1em;}
+.atto_emoticon_emote img {width: 16px;}
+
+";s:7:"created";i:1654602066;}

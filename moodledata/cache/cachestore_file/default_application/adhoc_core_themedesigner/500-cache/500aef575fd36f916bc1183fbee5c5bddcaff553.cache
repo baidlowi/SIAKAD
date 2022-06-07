@@ -1,0 +1,4 @@
+a:2:{s:4:"data";s:131:"/** Path: plugin filter_glossary .' **/
+#glossaryfilteroverlayprogress {position: fixed;top: 50%;width: 100%;text-align: center;}
+
+";s:7:"created";i:1654602066;}

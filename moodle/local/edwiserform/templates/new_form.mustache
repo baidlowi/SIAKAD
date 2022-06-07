@@ -1,0 +1,77 @@
+ {{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+  }}
+<div class="efb-form-builder-wrap" style='display: none;'>
+    <!-- Form Toolbar -->
+    {{#formid}}
+        <input type="hidden" name="id" value="{{formid}}">
+    {{/formid}}
+    {{#formversion}}
+        <input type="hidden" name="version" value="{{formversion}}">
+    {{/formversion}}
+    <div id="formeo-sprite" class="d-none">
+        {{{buildericons}}}
+    </div>
+    <div class="efb-editor-toolbar">
+        <div class="efb-editor-logo">
+            <div class="efb-editor-logo-wrap">
+                <a href="{{config.wwwroot}}"><img class="efb-img" src="{{logo}}"/></a>
+            </div>
+        </div>
+        <div class="efb-editor-action {{^panelsetup.title}}efb-hide{{/panelsetup.title}}">
+            <div class="efb-editor-action-title">
+                <label id="efb-form-cur-action">{{formaction}}</label>
+                <span class="efb-form-title">{{panelsetup.title}}</span>
+            </div>
+        </div>
+        <div class="efb-editor-buttons">
+            <!-- Adding id to identify buttons individually -->
+            {{#headerbutton}}
+            <div class="efb-editor-button {{class}}">
+                <a class="btn btn-primary efb-form-icon-btn" {{#id}}id="{{id}}"{{/id}} href="{{url}}">
+                    <i class="fa fa-{{icon}}" aria-hidden="true"></i>{{label}}
+                </a>
+            </div>
+            {{/headerbutton}}
+        </div>
+    </div>
+
+    <div id="efb-forms-panels-toggle" class="efb-forms-panels-toggle">
+        <div>
+        {{#nav_item}}
+        <button id="{{id}}" class="efb-panel-btn btn btn-primary {{class}} {{active}}" data-panel="{{panelid}}" data-panel-lbl="{{label}}">
+            <i class="fa {{icon}}"></i>
+            <span>{{label}}</span>
+        </button>
+        {{/nav_item}}
+        </div>
+    </div>
+    <div class="efb-form-content">
+        <div class="efb-forms-panel-heading">{{#str}} edittree, core_grades {{/str}}</div>
+        <!-- Form Panels-->
+        <div class="efb-forms-panels">
+            <div id="{{panelsetup.id}}" class="efb-tabcontent {{builderactive}}">
+                {{body}}
+                {{> local_edwiserform/create_form_setup_panel }}
+            </div>
+            {{#panels}}
+            <div id="{{id}}" class="efb-tabcontent {{active}}">
+                {{{body}}}{{{button}}}
+            </div>
+            {{/panels}}
+        </div>
+    </div>
+</div>

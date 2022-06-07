@@ -1,0 +1,82 @@
+CHANGES for "Edwiser Forms Free"
+
+--------------------------------------------------------------------------------------------
+
+September 16, 2020
+
+1. Made free plugin UI similar to PRO. To get overview how Pro plugin looks.
+2. Compatibility with IE.
+3. Improved Google ReCaptcha verification.
+
+--------------------------------------------------------------------------------------------
+
+August 28, 2019(Edwiser Forms Free 1.1.1):
+
+Bug Fixes:
+----------
+1. Using moodles limit parameters instead of query.
+2. Fixed relative path issue with events upgrade.
+
+--------------------------------------------------------------------------------------------
+
+August 22, 2019(Edwiser Forms Free 1.1.0):
+
+Bug Fixes:
+----------
+1. Optimized Form actions on form list.
+2. Fixed "Allow Data Edit" and "Notify Email" checkbox issue.
+3. Allowing user edit preloaded profile inputs.
+4. Removed services which no longer used. (Fixed undefined services issue on API Documentation page).
+5. Fixed modal styling for all themes.
+6. Fixed column and row cloning.
+7. Various optimization and bug fixes in form building.
+8. Fixed installation and database issue with PostGre and Oracle database.
+
+Feature:
+--------
+1. Added "Edwiser Form Free" link in the sidebar for Admin and Teacher.
+2. Added Live demo page link in the actions list.
+3. Added Form Reload functionality.
+4. Allow user to submit multiple responses in Contact and Support form.
+5. Improved Form List and Form Data List table styling.
+6. Added translation form Spanish, German, French, Polish.
+7. Improved Add New Form page styling.
+8. Added form definition validator.
+9. Improved form responsiveness for Mobile devices and container sizing.
+10. Apply background to form outer area on full page.
+11. Added link to open in full page when form is rendered using shortcode.
+12. Javascript optimization and improvement.
+13. Added support for Firefox, Safari and Edge browser.
+14. Added page autoscrolling when dragging row/column.
+
+--------------------------------------------------------------------------------------------
+
+January 10, 2019(Edwiser Forms Free 1.0.4):
+
+Bug Fixes:
+----------
+1. send_email name conflict in lib.php and its references
+2. sitekey not found js error when sitekey setting is kept empty
+
+--------------------------------------------------------------------------------------------
+
+December 17, 2018(Edwiser Forms Free 1.0.3):
+
+Bug Fixes:
+----------
+1. Reduced plugin size by compressing js files.
+2. Pages will load faster than before.
+3. Fixed preview form page redirect url.
+4. Fixed 'notifi_email_subject' column missing.
+5. Fixed CURRENT_TIMESTAMP default value issue with MariaDB and Mysql 5.56
+
+--------------------------------------------------------------------------------------------
+
+November 20, 2018(Edwiser Forms Free 1.0.2):
+
+Bug Fixes:
+----------
+1. Teachers user role can access "View All Forms".
+2. Modal visibility (Message that appears after submission of the form) on the course page.
+
+--------------------------------------------------------------------------------------------

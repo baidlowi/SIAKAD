@@ -1,0 +1,6 @@
+a:2:{s:4:"data";s:358:"/** Path: plugin tool_installaddon .' **/
+#page-admin-tool-installaddon-index #installfromrepobox {text-align: center;padding-top: 2em;padding-bottom: 2em;}
+#page-admin-tool-installaddon-index #installfromrepobox .singlebutton {display: inline-block;}
+#page-admin-tool-installaddon-index #installfromrepobox .singlebutton input[type=submit] {padding: 1em;}
+
+";s:7:"created";i:1654602066;}

@@ -1,0 +1,4 @@
+a:2:{s:4:"data";s:112:"/** Path: plugin atto_media .' **/
+.atto_form.atto_media > .tab-content {max-height: 45vh;overflow-x: hidden;}
+
+";s:7:"created";i:1654602066;}

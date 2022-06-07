@@ -1,0 +1,31 @@
+a:8:{s:10:"pluginname";s:17:"Custom Navigation";s:8:"activate";s:30:"Enabled Custom Menu Navigation";s:11:"stractivate";s:52:"Enables add new items in Navigation Menu at the end.";s:5:"items";s:25:"Custom Navigation items: ";s:8:"stritems";s:1007:"You can add custom items to the Navigation Menu using the following syntax.
+Identical to that used in the custom menu at theme settings.
+<br>
+Now you can add in the line a tooltip title (optional) and a language code or comma-separated list of codes (optional, for displaying the line to users of the specified language only), separated by pipe characters.
+<br>
+So you can use Moodle translate in the first argument on the line using
+this way,   "langstringname, componentname".
+<br>
+For example:
+<br>
+Example:
+<br>
+Moodle community
+<br>
+-Moodle free support|http://moodle.org/support
+<br>
+-Moodle development|http://moodle.org/development
+<br>
+--Moodle Tracker|http://tracker.moodle.org|Bugs & features|en
+<br>
+--Moodle Docs|http://docs.moodle.org
+<br>
+---grade,grades|https://docs.moodle.org/31/en/Grades|Docs about grades|en,es
+<br>
+-Moodle News|http://moodle.org/news
+<br>
+Moodle company
+<br>
+-Moodle commercial hosting|http://moodle.com/hosting
+<br>
+-Moodle commercial support|http://moodle.com/support";s:11:"flatenabled";s:40:"Enabled Master nodes in Boost Navigation";s:14:"strflatenabled";s:65:"Enables add new master items in Boost Navigation Menu at the end.";s:16:"privacy:metadata";s:62:"The Custom Navigation plugin does not store any personal data.";}

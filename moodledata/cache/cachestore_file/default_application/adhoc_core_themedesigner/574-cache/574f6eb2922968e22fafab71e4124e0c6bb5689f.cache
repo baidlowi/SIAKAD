@@ -1,0 +1,7 @@
+a:2:{s:4:"data";s:306:"/** Path: plugin quiz_grading .' **/
+#page-mod-quiz-report #manualgradingform {width: 100%;}
+#page-mod-quiz-report #manualgradingform.mform br {clear: none;}
+#page-mod-quiz-report #manualgradingform.mform .clearfix:after {clear: none;}
+#page-mod-quiz-report #manualgradingform .que {margin-bottom: .7em;}
+
+";s:7:"created";i:1654602066;}

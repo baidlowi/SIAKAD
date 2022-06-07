@@ -1,0 +1,9 @@
+a:2:{s:4:"data";s:492:"/** Path: plugin tool_profiling .' **/
+.path-admin-tool-profiling .profilingruntable .label {font-weight: bold;}
+.path-admin-tool-profiling .profiling_worse {color: red;}
+.path-admin-tool-profiling .profiling_better {color: green;}
+.path-admin-tool-profiling .profiling_same {color: dimgrey;}
+.path-admin-tool-profiling .profiling_important, .path-admin-tool-profiling .flexible .referencerun {font-weight: bold;}
+.path-admin-tool-profiling .flexible {margin-left: auto;margin-right: auto;}
+
+";s:7:"created";i:1654602066;}
