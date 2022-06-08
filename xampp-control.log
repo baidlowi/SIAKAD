@@ -122,3 +122,48 @@
 11:12:26  [main] 	Deinitializing Modules
 11:12:26  [main] 	Deinitializing Control Panel
 
+11:17:34  [main] 	Initializing Control Panel
+11:17:34  [main] 	Windows Version:  Home  64-bit
+11:17:34  [main] 	XAMPP Version: ???
+11:17:34  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:17:34  [main] 	You are not running with administrator rights! This will work for
+11:17:34  [main] 	most application stuff but whenever you do something with services
+11:17:34  [main] 	there will be a security dialogue or things will break! So think 
+11:17:34  [main] 	about running this application with administrator rights!
+11:17:34  [main] 	XAMPP Installation Directory: "c:\siakad\"
+11:17:34  [main] 	Checking for prerequisites
+11:17:34  [main] 	All prerequisites found
+11:17:34  [main] 	Initializing Modules
+11:17:34  [filezilla] 	Problem detected: FileZilla Not Found!
+11:17:34  [filezilla] 	Disabling FileZilla buttons
+11:17:34  [filezilla] 	Run this program from your XAMPP root directory!
+11:17:34  [mercury] 	Problem detected: Mercury Not Found!
+11:17:34  [mercury] 	Disabling Mercury buttons
+11:17:34  [mercury] 	Run this program from your XAMPP root directory!
+11:17:34  [Tomcat] 	Problem detected: Tomcat Not Found!
+11:17:34  [Tomcat] 	Disabling Tomcat buttons
+11:17:34  [Tomcat] 	Run this program from your XAMPP root directory!
+11:17:34  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+11:17:34  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+11:17:34  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+11:17:34  [main] 	Starting Check-Timer
+11:17:34  [main] 	Control Panel Ready
+11:17:37  [main] 	Executing "c:\siakad\apache"
+11:17:57  [main] 	Executing "c:\siakad\php"
+11:19:53  [Apache] 	Attempting to start Apache app...
+11:19:53  [Apache] 	Status change detected: running
+11:19:58  [mysql] 	Attempting to start MySQL app...
+11:19:58  [mysql] 	Status change detected: running
+11:20:29  [mysql] 	Attempting to stop MySQL app...
+11:20:29  [mysql] 	Status change detected: stopped
+11:20:31  [mysql] 	Attempting to start MySQL app...
+11:20:31  [mysql] 	Status change detected: running
+11:34:28  [main] 	Executing "c:\siakad\mysql"
+12:08:55  [Apache] 	Attempting to stop Apache (PID: 7688)
+12:08:55  [Apache] 	Attempting to stop Apache (PID: 10176)
+12:08:55  [Apache] 	Status change detected: stopped
+12:08:56  [mysql] 	Attempting to stop MySQL app...
+12:08:56  [mysql] 	Status change detected: stopped
+12:09:05  [main] 	Deinitializing Modules
+12:09:05  [main] 	Deinitializing Control Panel
+

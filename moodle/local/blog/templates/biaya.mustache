@@ -1,0 +1,24 @@
+
+<h1>Biaya Pendidikan</h1>
+<hr>
+
+<table class="table table-responsive  table-hover align-middle">
+    <tbody>
+        <tr class="table-secondary">
+            <th width="50px">No</th>
+            <th width="150px">Semester</th>
+            <th width="300px">Total Bayar</th>
+            <th width="100px">Bank</th>
+            <th width="100px">Status</th>
+        </tr>
+        <tr>{{#biaya}}
+            <th width="50px">{{fieldid}}</th>
+            <th width="150px">{{content}}</th>
+            <th width="300px"></th>
+            <th width="100px"></th>
+            <th width="100px"></th>
+        </tr>{{/biaya}}
+    </tbody>
+</table>
+
+{{!<input type="button" class="btn btn-primary" value="Create Message" onclick="location.href='{{editurl}}{{!'">}}

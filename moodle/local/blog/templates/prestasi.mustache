@@ -1,0 +1,20 @@
+
+<h1>Prestasi Mahasiswa</h1>
+<hr>
+
+<table class="table table-responsive table-hover align-middle">
+    <tbody class="align-center">
+        <tr class="table-secondary">
+            <th width="50px">No</th>
+            <th width="600x">Nama Kompetisi</th>
+            <th width="100px">Status</th>
+        </tr>
+        
+        <tr>{{#prestasi}}
+            <th width="50px">{{id}}</th>
+            <th width="600x">{{namakompetisi}}</th>
+            <th width="100px">{{status}}</th>
+        </tr>{{/prestasi}}
+    </tbody>
+</table>
+<input type="button" class="btn btn-primary" value="Tambah Prestasi" onclick="location.href='{{editurl}}'">
