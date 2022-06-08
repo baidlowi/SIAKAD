@@ -1,0 +1,38 @@
+21:30:11  [main] 	Initializing Control Panel
+21:30:11  [main] 	Windows Version:  Home  64-bit
+21:30:11  [main] 	XAMPP Version: ???
+21:30:11  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+21:30:11  [main] 	You are not running with administrator rights! This will work for
+21:30:11  [main] 	most application stuff but whenever you do something with services
+21:30:11  [main] 	there will be a security dialogue or things will break! So think 
+21:30:11  [main] 	about running this application with administrator rights!
+21:30:11  [main] 	XAMPP Installation Directory: "c:\users\baidl\onedrive\documents\github\siakad\"
+21:30:11  [main] 	Checking for prerequisites
+21:30:11  [main] 	All prerequisites found
+21:30:11  [main] 	Initializing Modules
+21:30:11  [filezilla] 	Problem detected: FileZilla Not Found!
+21:30:11  [filezilla] 	Disabling FileZilla buttons
+21:30:11  [filezilla] 	Run this program from your XAMPP root directory!
+21:30:11  [mercury] 	Problem detected: Mercury Not Found!
+21:30:11  [mercury] 	Disabling Mercury buttons
+21:30:11  [mercury] 	Run this program from your XAMPP root directory!
+21:30:11  [Tomcat] 	Problem detected: Tomcat Not Found!
+21:30:11  [Tomcat] 	Disabling Tomcat buttons
+21:30:11  [Tomcat] 	Run this program from your XAMPP root directory!
+21:30:11  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+21:30:11  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+21:30:11  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+21:30:11  [main] 	Starting Check-Timer
+21:30:11  [main] 	Control Panel Ready
+21:30:13  [Apache] 	Attempting to start Apache app...
+21:30:13  [Apache] 	Status change detected: running
+21:30:14  [mysql] 	Attempting to start MySQL app...
+21:30:14  [mysql] 	Status change detected: running
+23:51:08  [Apache] 	Attempting to stop Apache (PID: 8188)
+23:51:08  [Apache] 	Attempting to stop Apache (PID: 20316)
+23:51:08  [Apache] 	Status change detected: stopped
+23:51:09  [mysql] 	Attempting to stop MySQL app...
+23:51:09  [mysql] 	Status change detected: stopped
+00:16:45  [main] 	Deinitializing Modules
+00:16:45  [main] 	Deinitializing Control Panel
+
