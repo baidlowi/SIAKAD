@@ -22,11 +22,30 @@ Website: http://sistem-akademik.epizy.com/02<p>
 
 ***
 
-## Instalation
+## Installation
 Download and extract .zip file code or clone repository :
 ```
 git clone https://github.com/baidlowi/SIAKAD
 ```
+- move folder to directory `C:/` 
+<br>
+
+> if you want to change directory, change configuration in:
+>- ``/apache/httpd.conf``
+>- ``/apache/httpd-ssl.conf``
+>- ``/apache/httpd-xampp.conf``
+>- ``/mysql/my.ini``
+
+<details>
+<summary><strong>Expand Change Directory</strong></summary>
+
+- Open file
+<img src="locale/configuration1.png"> <br>
+
+- Find and replace `C:/` to your directory. example:
+<img src="https://user-images.githubusercontent.com/79616397/172534741-de23754e-8f69-43ab-b35a-1d093c3f45f6.png">
+</details>
+
 ***
 
 ## How to Use

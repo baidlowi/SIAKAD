@@ -36,3 +36,89 @@
 00:16:45  [main] 	Deinitializing Modules
 00:16:45  [main] 	Deinitializing Control Panel
 
+11:07:40  [main] 	Initializing Control Panel
+11:07:40  [main] 	Windows Version:  Home  64-bit
+11:07:40  [main] 	XAMPP Version: ???
+11:07:40  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:07:40  [main] 	You are not running with administrator rights! This will work for
+11:07:40  [main] 	most application stuff but whenever you do something with services
+11:07:40  [main] 	there will be a security dialogue or things will break! So think 
+11:07:40  [main] 	about running this application with administrator rights!
+11:07:40  [main] 	XAMPP Installation Directory: "c:\server\"
+11:07:40  [main] 	Checking for prerequisites
+11:07:40  [main] 	All prerequisites found
+11:07:40  [main] 	Initializing Modules
+11:07:40  [filezilla] 	Problem detected: FileZilla Not Found!
+11:07:40  [filezilla] 	Disabling FileZilla buttons
+11:07:40  [filezilla] 	Run this program from your XAMPP root directory!
+11:07:40  [mercury] 	Problem detected: Mercury Not Found!
+11:07:40  [mercury] 	Disabling Mercury buttons
+11:07:40  [mercury] 	Run this program from your XAMPP root directory!
+11:07:40  [Tomcat] 	Problem detected: Tomcat Not Found!
+11:07:40  [Tomcat] 	Disabling Tomcat buttons
+11:07:40  [Tomcat] 	Run this program from your XAMPP root directory!
+11:07:40  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+11:07:40  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+11:07:40  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+11:07:40  [main] 	Starting Check-Timer
+11:07:40  [main] 	Control Panel Ready
+11:07:41  [Apache] 	Attempting to start Apache app...
+11:07:42  [Apache] 	Status change detected: running
+11:07:53  [mysql] 	Attempting to start MySQL app...
+11:07:53  [mysql] 	Status change detected: running
+11:11:44  [mysql] 	Attempting to stop MySQL app...
+11:11:44  [mysql] 	Status change detected: stopped
+11:11:44  [Apache] 	Attempting to stop Apache (PID: 16212)
+11:11:44  [Apache] 	Attempting to stop Apache (PID: 20956)
+11:11:45  [Apache] 	Status change detected: stopped
+11:12:22  [main] 	Deinitializing Modules
+11:12:22  [main] 	Deinitializing Control Panel
+
+11:05:04  [main] 	Initializing Control Panel
+11:05:04  [main] 	Windows Version:  Home  64-bit
+11:05:04  [main] 	XAMPP Version: ???
+11:05:04  [main] 	Control Panel Version: 3.2.4  [ Compiled: Jun 5th 2019 ]
+11:05:04  [main] 	You are not running with administrator rights! This will work for
+11:05:04  [main] 	most application stuff but whenever you do something with services
+11:05:04  [main] 	there will be a security dialogue or things will break! So think 
+11:05:04  [main] 	about running this application with administrator rights!
+11:05:04  [main] 	XAMPP Installation Directory: "c:\server\"
+11:05:04  [main] 	Checking for prerequisites
+11:05:05  [main] 	All prerequisites found
+11:05:05  [main] 	Initializing Modules
+11:05:05  [filezilla] 	Problem detected: FileZilla Not Found!
+11:05:05  [filezilla] 	Disabling FileZilla buttons
+11:05:05  [filezilla] 	Run this program from your XAMPP root directory!
+11:05:05  [mercury] 	Problem detected: Mercury Not Found!
+11:05:05  [mercury] 	Disabling Mercury buttons
+11:05:05  [mercury] 	Run this program from your XAMPP root directory!
+11:05:05  [Tomcat] 	Problem detected: Tomcat Not Found!
+11:05:05  [Tomcat] 	Disabling Tomcat buttons
+11:05:05  [Tomcat] 	Run this program from your XAMPP root directory!
+11:05:05  [Tomcat] 	Problem detected: Required Tool catalina_start.bat Not Found!
+11:05:05  [Tomcat] 	Problem detected: Required Tool catalina_stop.bat Not Found!
+11:05:05  [Tomcat] 	Problem detected: Required Tool catalina_service.bat Not Found!
+11:05:05  [main] 	Starting Check-Timer
+11:05:05  [main] 	Control Panel Ready
+11:05:10  [main] 	Executing "c:\server\apache"
+11:07:42  [Apache] 	Status change detected: running
+11:07:53  [mysql] 	Status change detected: running
+11:11:44  [mysql] 	Status change detected: stopped
+11:11:44  [mysql] 	Error: MySQL shutdown unexpectedly.
+11:11:44  [mysql] 	This may be due to a blocked port, missing dependencies, 
+11:11:44  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+11:11:44  [mysql] 	Press the Logs button to view error logs and check
+11:11:44  [mysql] 	the Windows Event Viewer for more clues
+11:11:44  [mysql] 	If you need more help, copy and post this
+11:11:44  [mysql] 	entire log window on the forums
+11:11:44  [Apache] 	Status change detected: stopped
+11:11:45  [Apache] 	Error: Apache shutdown unexpectedly.
+11:11:45  [Apache] 	This may be due to a blocked port, missing dependencies, 
+11:11:45  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+11:11:45  [Apache] 	Press the Logs button to view error logs and check
+11:11:45  [Apache] 	the Windows Event Viewer for more clues
+11:11:45  [Apache] 	If you need more help, copy and post this
+11:11:45  [Apache] 	entire log window on the forums
+11:12:26  [main] 	Deinitializing Modules
+11:12:26  [main] 	Deinitializing Control Panel
+

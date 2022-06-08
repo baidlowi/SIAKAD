@@ -1416,3 +1416,34 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Tue Jun 07 18:37:37.151539 2022] [ssl:warn] [pid 11408:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Tue Jun 07 18:37:37.171325 2022] [mpm_winnt:notice] [pid 11408:tid 596] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 08 11:07:42.941902 2022] [ssl:warn] [pid 16212:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 08 11:07:42.968629 2022] [core:warn] [pid 16212:tid 548] AH00098: pid file C:/server/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 08 11:07:42.969175 2022] [ssl:warn] [pid 16212:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Jun 08 11:07:43.122777 2022] [mpm_winnt:notice] [pid 16212:tid 548] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Wed Jun 08 11:07:43.122777 2022] [mpm_winnt:notice] [pid 16212:tid 548] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Jun 08 11:07:43.122777 2022] [core:notice] [pid 16212:tid 548] AH00094: Command line: 'c:\\server\\apache\\bin\\httpd.exe -d C:/server/apache'
+[Wed Jun 08 11:07:43.125970 2022] [mpm_winnt:notice] [pid 16212:tid 548] AH00418: Parent: Created child process 20956
+[Wed Jun 08 11:07:43.501694 2022] [ssl:warn] [pid 20956:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 08 11:07:43.524214 2022] [ssl:warn] [pid 20956:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Jun 08 11:07:43.543577 2022] [mpm_winnt:notice] [pid 20956:tid 604] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 08 11:08:36.564852 2022] [php7:notice] [pid 20956:tid 1896] [client 127.0.0.1:51946] Use of subplugins.php has been deprecated. Please update your 'C:\\server\\moodle/local/edwiserform' plugin to provide a subplugins.json file instead.
+[Wed Jun 08 11:08:41.960162 2022] [php7:notice] [pid 20956:tid 1896] [client 127.0.0.1:51946] Use of subplugins.php has been deprecated. Please update your 'C:\\server\\moodle/local/edwiserform' plugin to provide a subplugins.json file instead.
+[Wed Jun 08 11:09:18.813470 2022] [php7:notice] [pid 20956:tid 1896] [client 127.0.0.1:52066] Use of subplugins.php has been deprecated. Please update your 'C:\\server\\moodle/local/edwiserform' plugin to provide a subplugins.json file instead., referer: http://127.0.0.1/admin/index.php
+[Wed Jun 08 11:09:52.213537 2022] [php7:notice] [pid 20956:tid 1868] [client 127.0.0.1:52082] Use of subplugins.php has been deprecated. Please update your 'C:\\server\\moodle/local/edwiserform' plugin to provide a subplugins.json file instead., referer: http://127.0.0.1/admin/index.php?cache=0&confirmrelease=1&confirmplugincheck=0&confirmupgrade=1
+[Wed Jun 08 11:10:05.303833 2022] [php7:notice] [pid 20956:tid 1868] [client 127.0.0.1:52082] Use of subplugins.php has been deprecated. Please update your 'C:\\server\\moodle/local/edwiserform' plugin to provide a subplugins.json file instead., referer: http://127.0.0.1/admin/index.php?cache=0&confirmrelease=1&confirmplugincheck=0&confirmupgrade=1
+[Wed Jun 08 11:19:54.296512 2022] [ssl:warn] [pid 7688:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 08 11:19:54.323747 2022] [core:warn] [pid 7688:tid 532] AH00098: pid file C:/SIAKAD/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 08 11:19:54.324747 2022] [ssl:warn] [pid 7688:tid 532] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Jun 08 11:19:54.471774 2022] [mpm_winnt:notice] [pid 7688:tid 532] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Wed Jun 08 11:19:54.471774 2022] [mpm_winnt:notice] [pid 7688:tid 532] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed Jun 08 11:19:54.471774 2022] [core:notice] [pid 7688:tid 532] AH00094: Command line: 'c:\\siakad\\apache\\bin\\httpd.exe -d C:/SIAKAD/apache'
+[Wed Jun 08 11:19:54.476189 2022] [mpm_winnt:notice] [pid 7688:tid 532] AH00418: Parent: Created child process 10176
+[Wed Jun 08 11:19:54.917179 2022] [ssl:warn] [pid 10176:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 08 11:19:54.947355 2022] [ssl:warn] [pid 10176:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Wed Jun 08 11:19:54.970743 2022] [mpm_winnt:notice] [pid 10176:tid 588] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 08 11:20:39.074341 2022] [php7:notice] [pid 10176:tid 1916] [client 127.0.0.1:52630] Use of subplugins.php has been deprecated. Please update your 'C:\\SIAKAD\\moodle/local/edwiserform' plugin to provide a subplugins.json file instead.
+[Wed Jun 08 11:20:42.883685 2022] [php7:notice] [pid 10176:tid 1916] [client 127.0.0.1:52630] Cannot find session record j9htgjh1pmq8aadt46gkd9dag8 for user 2, creating new session.
