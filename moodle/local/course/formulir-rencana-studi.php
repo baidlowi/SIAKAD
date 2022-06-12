@@ -5,7 +5,7 @@ require_once($CFG->dirroot . '/local/course/classes/form/addcourse.php');
 
 global $DB, $USER;
 if (!isloggedin() or isguestuser()) {
-    return redirect($CFG->wwwroot . '/login/index.php', 'Harap login terlebih dahulu' );     
+    return redirect($CFG->wwwroot . '/../../login/index.php', 'Harap login terlebih dahulu' );     
    }
 
 $PAGE->set_url(new moodle_url('/local/course/formulir-rencana-studi.php'));
