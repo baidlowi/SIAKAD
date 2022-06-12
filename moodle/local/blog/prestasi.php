@@ -3,6 +3,9 @@
 require_once(__DIR__ . '/../../config.php');
 
 global $DB;
+if (!isloggedin() or isguestuser()) {
+    return redirect($CFG->wwwroot . '/../../login/index.php', 'Harap login terlebih dahulu' );     
+   }
 
 $PAGE->set_url(new moodle_url('/local/blog/prestasi.php'));
 $PAGE->set_context(\context_system::instance());
