@@ -1,0 +1,92 @@
+
+<h1>Formulir Rencana Studi</h1>
+<hr>
+<table cellpadding="4" cellspacing="0" class="FilterBox">
+	<tr>
+		<td width="80"><strong>NRP</strong></td>
+		<td width="10" align="center"><strong>:</strong></td>
+		<td width="250">{{nrp}} </td>
+		<td width="80"><strong>Periode</strong></td>
+		<td width="10" align="center"><strong>:</strong></td>
+		<td width="260"><select name="semesterTerm" id="semesterTerm" class="ControlStyle">
+			<option></option>
+			<option value='1'>Gasal</option>
+			<option selected='selected' value='2'>Genap</option>
+			<option value='3'>Pendek</option>
+			<option value='4'>Sisipan</option>
+			</select>
+			<select name="thnAjaran" id="thnAjaran" class="ControlStyle">
+			<option></option>
+			<option value='2022'>2022</option>
+			<option selected='selected' value='2021'>2021</option>
+			<option value='2020'>2020</option>
+			<option value='2019'>2019</option>
+			<option value='2018'>2018</option>
+			<option value='2017'>2017</option>
+			<option value='2016'>2016</option>
+			<option value='2015'>2015</option>
+			<option value='2014'>2014</option>
+			<option value='2013'>2013</option>
+			<option value='2012'>2012</option>
+			<option value='2011'>2011</option>
+			<option value='2010'>2010</option>
+			<option value='2009'>2009</option>
+			<option value='2008'>2008</option>
+			<option value='2007'>2007</option>
+			<option value='2006'>2006</option>
+			<option value='2005'>2005</option>
+			<option value='2004'>2004</option>
+			<option value='2003'>2003</option>
+			<option value='2002'>2002</option>
+			<option value='2001'>2001</option>
+			<option value='2000'>2000</option>
+			<option value='1999'>1999</option>
+			<option value='1998'>1998</option>
+			<option value='1997'>1997</option>
+			<option value='1996'>1996</option>
+			<option value='1995'>1995</option>
+			</select>
+			<input type="button" class="ControlStyle" value="Ganti" onClick="goGanti()" /> 
+		</td>
+	</tr>
+	<tr>
+		<td><strong>Nama</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>{{user}}</td>
+		<td><strong>Dosen Wali</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>Faizal Johan Atletiko, S.Kom. , M.T.</td>
+	</tr>
+	<tr>
+		<td><strong>IPK / IPS</strong></td>
+		<td align="right"><strong>:</strong></td>
+		<td>3,00 / 3,00</td>
+		<td><strong>Batas / Sisa</strong></td>
+		<td align="center"><strong>:</strong></td>
+		<td>20 / 1 SKS</td>
+	</tr>    
+</table>
+<hr>
+
+<table class="table table-responsive table-striped table-hover align-middle">
+    <tbody>
+        <tr class="table-secondary">
+            <th width="100px">Kode</th>
+            <th width="300px">Mata Kuliah</th>
+            <th width="50px">SKS</th>
+            <th width="200px">Dosen</th>
+            <th width="100px">Nilai</th>
+        </tr>
+
+        <tr>
+            <th width="100px">MBD01</th>
+            <th width="300px">Manajemen Basis Data</th>
+            <th width="50px">3</th>
+            <th width="400px">Radityo Prasetianto Wibowo, S.Kom., M.Kom</th>
+            <th width="100px">A</th>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+{{!<input type="button" class="btn btn-primary" value="Create Message" onclick="location.href='{{editurl}}{{!'">}}
