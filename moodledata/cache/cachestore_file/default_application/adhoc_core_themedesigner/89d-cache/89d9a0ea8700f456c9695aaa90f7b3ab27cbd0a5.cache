@@ -12,4 +12,4 @@ a:2:{s:4:"data";s:1659:"/** Path: plugin workshopallocation_manual .' **/
 .path-mod-workshop .manual-allocator .allocations .reviewedby .info, .path-mod-workshop .manual-allocator .allocations .peer .info, .path-mod-workshop .manual-allocator .allocations .reviewerof .info {font-size: 80%;color: #888;font-style: italic;}
 .path-mod-workshop .manual-allocator .allocations .peer .submission {font-size: 90%;margin-top: 1em;}
 
-";s:7:"created";i:1654602066;}
+";s:7:"created";i:1655008567;}

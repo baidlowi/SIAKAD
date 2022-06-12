@@ -4,4 +4,4 @@ a:2:{s:4:"data";s:398:"/** Path: plugin qtype_calculatedmulti .' **/
 .que.calculatedmulti .answer .specificfeedback script {display: none;}
 .que.calculatedmulti .answer div.r0, .que.calculatedmulti .answer div.r1 {padding: .3em;}
 
-";s:7:"created";i:1654602065;}
+";s:7:"created";i:1655008566;}

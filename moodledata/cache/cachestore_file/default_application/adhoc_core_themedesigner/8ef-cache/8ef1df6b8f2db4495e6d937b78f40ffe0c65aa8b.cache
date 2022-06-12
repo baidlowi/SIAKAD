@@ -21,4 +21,4 @@ a:2:{s:4:"data";s:2295:"/** Path: plugin gradereport_singleview .' **/
 .path-grade-report-singleview .singleview_bulk > fieldset {display: block;}
 .path-grade-report-singleview div.reporttable form .singleview_bulk > div.enable {margin-bottom: .5em;text-align: left;}
 
-";s:7:"created";i:1654602066;}
+";s:7:"created";i:1655008566;}

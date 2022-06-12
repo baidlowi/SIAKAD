@@ -42,4 +42,4 @@ input[type="radio"].tool_lp_scale_default, input[type="checkbox"].tool_lp_scale_
 .user-competency-course-navigation span {max-width: 100%;overflow: hidden;}
 .competency-grader textarea {width: 100%;max-width: 100%;-webkit-box-sizing: border-box;box-sizing: border-box;}
 
-";s:7:"created";i:1654602066;}
+";s:7:"created";i:1655008566;}

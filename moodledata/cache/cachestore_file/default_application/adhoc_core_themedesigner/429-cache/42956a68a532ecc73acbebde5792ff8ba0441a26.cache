@@ -169,4 +169,4 @@ a:2:{s:4:"data";s:24502:"/** Path: plugin local_edwiserform .' **/
 .edwiserform-fullpage .edwiserform-root-container {background: white;}
 .edwiserform-fullpage .edwiserform-root-container, .edwiserform-fullpage .edwiserform-wrap-container {display: block;position: fixed;left: 0;top: 0;right: 0;bottom: 0;overflow: auto;}
 
-";s:7:"created";i:1654602066;}
+";s:7:"created";i:1655008567;}

@@ -4,4 +4,4 @@ div.editor_atto_content caption {height: auto;}
 div.availablecolors {background-color: #eee;padding: .5rem;}
 div.availablecolors .tablebordercolor, div.availablecolors .tablebackgroundcolor {display: inline-flex;justify-content: center;align-items: center;width: 2rem;height: 2rem;text-align: center;vertical-align: sub;border-radius: 25%;margin-right: .2rem;}
 
-";s:7:"created";i:1654602066;}
+";s:7:"created";i:1655008567;}

@@ -13,4 +13,4 @@ a:2:{s:4:"data";s:1375:"/** Path: plugin block_settings .' **/
 .block_settings .block_tree [aria-hidden="false"] {display: block;}
 .block_settings .block_tree  [aria-hidden="true"]:not(.icon) {display: none;}
 
-";s:7:"created";i:1654602066;}
+";s:7:"created";i:1655008566;}

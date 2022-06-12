@@ -244,4 +244,4 @@ table#categoryquestions {width: 100%;table-layout: fixed;}
 	#page-mod-quiz-review .que .commentlink {display: none;}
 	#page-mod-quiz-attempt .que, #page-mod-quiz-review .que {page-break-inside: avoid;}}
 
-";s:7:"created";i:1654602066;}
+";s:7:"created";i:1655008566;}

@@ -65,4 +65,4 @@ a.wiki_edit_section {font-size: .6em;position: relative;float: right;}
 .path-mod-wiki .printicon {background: url("/theme/image.php?theme=boost&component=core&image=t%2Fprint") no-repeat scroll 2px center transparent;padding-left: 20px;}
 #page-mod-wiki-prettyview .displayprinticon {text-align: right;}
 
-";s:7:"created";i:1654602065;}
+";s:7:"created";i:1655008566;}

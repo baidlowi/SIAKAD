@@ -15,4 +15,4 @@ a:2:{s:4:"data";s:1598:"/** Path: plugin block_navigation .' **/
 .block_navigation .block_tree [aria-hidden="false"] {display: block;}
 .block_navigation .block_tree [aria-hidden="true"]:not(.icon) {display: none;}
 
-";s:7:"created";i:1654602066;}
+";s:7:"created";i:1655008566;}

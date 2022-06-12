@@ -6,4 +6,4 @@ a:2:{s:4:"data";s:570:"/** Path: plugin atto_recordrtc .' **/
 @media screen and (min-width: 671px) {.atto_recordrtc video {display: block;height: 480px;margin: 0 auto;width: 640px;}}
 .atto_recordrtc #start-stop, .atto_recordrtc #upload {white-space: normal;}
 
-";s:7:"created";i:1654602066;}
+";s:7:"created";i:1655008567;}

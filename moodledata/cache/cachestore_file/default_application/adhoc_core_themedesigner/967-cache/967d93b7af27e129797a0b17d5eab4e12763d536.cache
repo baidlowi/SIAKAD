@@ -13,4 +13,4 @@ html > body table a[href*="&create="] {background: url("/theme/image.php?theme=b
 html > body #content p.links a[href*="&create="] {background: url("/theme/image.php?theme=boost&component=core&image=t%2Fadd") no-repeat 0 0;-webkit-background-size: contain;background-size: contain;padding-left: 25px;}
 html > body #content fieldset > legend {font-size: 1rem;}
 
-";s:7:"created";i:1654602066;}
+";s:7:"created";i:1655008567;}

@@ -12,4 +12,4 @@ span[data-flexitour="container"].orphan div[data-role="arrow"] {display: none;}
 .tour-actions > ul > li {background-color: #f5f5f5;border-radius: 6px;border: 1px solid #ccc;display: inline-block;height: 9em;margin: .5em;text-align: center;width: 13em;}
 .tour-actions > ul > li > a {height: 100%;display: block;padding: 1em;}
 
-";s:7:"created";i:1654602066;}
+";s:7:"created";i:1655008567;}
