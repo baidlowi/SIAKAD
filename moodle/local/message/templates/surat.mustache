@@ -1,1 +1,22 @@
 
+<h1>Layanan Surat Mahasiswa</h1>
+<hr><br>
+
+<table class="table table-responsive table-hover align-middle">
+    <tbody class="align-center">
+        <tr class="table-secondary">
+            <th width="50px">No</th>
+            <th width="600x">Keperluan</th>
+            <th width="100px">File Berkas</th>
+        </tr>
+        
+        <tr>{{#surat}}
+            <th width="50px">{{id}}</th>
+            <th width="600x">{{keperluan}}</th>
+            <th width="100px">{{file}}</th>
+        </tr>{{/surat}}
+    </tbody>
+</table>
+
+
+<input type="button" class="btn btn-primary" value="Ajukan Surat" onclick="location.href='{{editurl}}'">
