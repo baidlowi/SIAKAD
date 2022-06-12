@@ -11,13 +11,13 @@
             <th width="100px">Bank</th>
             <th width="100px">Status</th>
         </tr>
-        <tr>{{#biaya}}
-            <th width="50px">{{fieldid}}</th>
-            <th width="150px">{{content}}</th>
-            <th width="300px"></th>
-            <th width="100px"></th>
-            <th width="100px"></th>
-        </tr>{{/biaya}}
+        <tr>{{#semester}}
+            <th width="50px">{{recordid}}</th>
+            <th width="150px">{{content}}</th>{{/semester}}
+            {{#biaya}}<th width="300px">{{content}}</th>{{/biaya}}
+            {{#bank}}<th width="100px">{{content}}</th>{{/bank}}
+            {{#status}}<th width="200px">{{content}}</th>{{/status}}
+        </tr>
     </tbody>
 </table>
 
