@@ -9,7 +9,7 @@ Website: http://sistem-akademik.epizy.com/02<p>
 ## TEAM RBPL 02
 | No | NRP | Nama |
 | :---: | :---: | --- |
-| 1 |  205026201026  | Izzaturrahman |
+| 1 |  05211940000140| Izzaturrahman Zhafran Alvaro |
 | 2 |  5026201012    | Hilda Erdianita Sugianto |
 | 3 |  5026201025    | Sabrina Pesta Yulita Sirait |
 | 4 |  5026201026    | Nur Khofifah |
