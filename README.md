@@ -1,8 +1,8 @@
 # <p align="center"><strong>SISTEM INFORMASI AKADEMIK</strong><p>
 <p align="center">Kelompok 2 RBPL C 2022 <br>
-Website: http://sistem-akademik.epizy.com/02<p>
+Website: http://sistem-akademik.epizy.com/akademik<p>
 
-<a target="_blank">[![Website Preview](/locale/login_page.png)](http://sistem-akademik.epizy.com/02)</a>
+<a target="_blank">[![Website Preview](/locale/login_page.png)](http://sistem-akademik.epizy.com/akademik)</a>
 
 ***
 
