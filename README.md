@@ -61,7 +61,11 @@ git clone https://github.com/baidlowi/SIAKAD
 ***
 
 ## Open in Browser
-http://127.0.0.1 or http://localhost
+http://127.0.0.1 or http://localhost <br>
+<br>
+## Login with
+Username: `admin` <br>
+Password: `#Kelompok02`
 ***
 
 <p align="center"><i>Repository only for Educational</i></p>
