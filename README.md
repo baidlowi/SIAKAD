@@ -23,14 +23,14 @@ Website: http://sistem-akademik.epizy.com/akademik<p>
 ***
 
 ## Installation
-- Download and extract .zip file code or clone repository :
-```
-git clone https://github.com/baidlowi/SIAKAD
-```
-- move folder to directory `C:/` 
+1. Download and extract .zip file code or clone repository :
+    ```
+    git clone https://github.com/baidlowi/SIAKAD
+    ```
+2. Move folder to directory `C:/` and change name folder to `SIAKAD` only
 <br>
 
-> if you want to change directory, change configuration in:
+> If you want to change directory, change configuration in:
 >- `/apache/httpd.conf`
 >- `/apache/httpd-ssl.conf`
 >- `/apache/httpd-xampp.conf`
@@ -50,14 +50,14 @@ git clone https://github.com/baidlowi/SIAKAD
 
 ## How to Use
 ### Windows
-- open `xampp-control.exe` <br>
-- start `Apache` and `MySQL`
+1. open `xampp-control.exe` <br>
+2. start `Apache` and `MySQL`
 
 ### Linux
 - Open terminal, and execute this line
-```
-./setup_xampp.sh
-```
+  ```
+  ./setup_xampp.sh
+  ```
 ***
 
 ## Open in Browser
