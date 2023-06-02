@@ -3,7 +3,7 @@
 <a target="_blank">[![Website Preview](/locale/login_page.png)](http://sistem-akademik.epizy.com/akademik)</a>
 
 <i>Website: http://sistem-akademik.epizy.com/akademik <br>
-Login Username: `admin` and Password: `#Kelompok02`</i> <br>
+Login Username: `guestlecturer` and Password: `1Guest-lecturer`</i> <br>
 
 <br>Documentation: https://docs.google.com/document/d/1H58ApLFnYsdhX2n27EIsxK_5RucbvdmCycLPv499lAs <br>
     
@@ -28,7 +28,7 @@ Login Username: `admin` and Password: `#Kelompok02`</i> <br>
 ## Installation
 1. Download and extract .zip file code or clone repository :
     ```
-    git clone https://github.com/baidlowi/SIAKAD
+    git clone https://github.com/baidlowi/SIAKAD.git
     ```
 2. Move folder to directory `C:/` and change name folder to `SIAKAD` only
 <br>
